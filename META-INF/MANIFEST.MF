@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: xcore-maven-example
+Bundle-SymbolicName: xcore-maven-example;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Automatic-Module-Name: xcore.maven.example
+Export-Package: sample.model,
+ sample.model.impl,
+ sample.model.util

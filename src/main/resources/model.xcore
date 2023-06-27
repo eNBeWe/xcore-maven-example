@@ -1,9 +1,9 @@
 @GenModel(
     bundleManifest="false",
     modelDirectory="xcore-maven-example/src/main/java-gen",
-    dynamicTemplates="false",
-    templateDirectory="xcore-maven-example/src/resources/templates",
-    complianceLevel="17"
+    dynamicTemplates="true",
+    templateDirectory="xcore-maven-example/src/main/resources/templates",
+    complianceLevel="17.0"
 )
 package sample.model
 
